@@ -20,7 +20,7 @@ public class Day1Review1 {
 		System.out.println("두 숫자의 곱은 "+ result1 +" 입니다.");
 		scn.close();*/
 		//복습 2번
-		
+		//opEx 3번 복습해보기
 	}
 
 }

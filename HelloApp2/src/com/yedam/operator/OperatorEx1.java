@@ -36,6 +36,13 @@ public class OperatorEx1 {
 		num1 = scn1.nextInt();
 		System.out.println("2번 숫자를 입력하세요.");
 		num2 = scn1.nextInt();
+		if(num1 > num2) {
+			for(int i= num2; i <=num1; i++){
+			if( i%2 == 0 ) {
+				result1+=i;
+				}
+		}
+		}
 		for(int i= num1; i <=num2; i++){
 			if( i%2 == 0 ) {
 				result1+=i;

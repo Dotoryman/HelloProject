@@ -19,7 +19,7 @@ public class ReferenceEx2 {
 		for (int i= 0; i < 3; i++) {
 			sum += intAry[i];
 		}
-		//확장 for
+		//확장 for.
 		for (String str : strAry) {
 			System.out.println(str);
 		}

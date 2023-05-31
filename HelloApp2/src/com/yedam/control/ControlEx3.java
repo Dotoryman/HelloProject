@@ -3,7 +3,7 @@ package com.yedam.control;
 public class ControlEx3 {
 	public static void main(String[] args) {
 		//달력만들기
-		System.out.println("2023 June Calendar");
+		System.out.println(" ==== 2023 June Calendar ====");
 		String days = "  Sun Mon Tue Wed Thr Fri Sat";
 		System.out.println(days);
 		System.out.println("==============================");

@@ -21,6 +21,9 @@ public class Day1Review1 {
 		scn.close();*/
 		//복습 2번
 		//opEx 3번 복습해보기
+		
+		Scanner scn = new Scanner(System.in);
+		int balance = 0;
 	}
 
 }

@@ -7,7 +7,6 @@ public class ObjectEx2Bank {
 		
 		// int[] {0,0,0} Bank[] {null,null,null}
 		Bank[] accounts = new Bank[3];
-		
 		boolean run = true;
 		int selectNo = 0;
 		Scanner scn = new Scanner(System.in);
@@ -22,7 +21,6 @@ public class ObjectEx2Bank {
 			if(selectNo == 1) { //등록
 				System.out.println("사용하실 계좌번호를 입력하세요");
 				Bank b1 = new Bank();
-				
 
 			} else if(selectNo == 2){ //계좌조회(예금주, 계좌번호, 잔액)
 				

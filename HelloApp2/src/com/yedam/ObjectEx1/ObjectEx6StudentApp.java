@@ -47,7 +47,7 @@ public class ObjectEx6StudentApp {
 			}
 			int maxnum = 0;
 			for (int j = 0; j < stu.length; j++) {
-				if (maxnum < stu[j].getStuScore() && stu[j] != null) {
+				if (maxnum < stu[j].getStuScore() && stu[j].getStuScore() != null) {
 					maxnum = stu[j].getStuScore();
 				}
 			}		

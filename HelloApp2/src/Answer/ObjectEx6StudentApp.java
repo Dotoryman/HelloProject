@@ -9,7 +9,19 @@ public class ObjectEx6StudentApp {
 
 	static Student[] students = new Student[6];
 	static Scanner scn = new Scanner(System.in);
-
+	
+	public static boolean login() {
+		System.out.println("관리자 계정을 입력하세요");
+		String id = scn.nextLine();
+		System.out.println("비밀번호를 입력하세요");
+		String pw = scn.nextLine();
+		
+		if(id.equals("admin") && pw.equals("1234")) {
+			return true;
+		}
+		return false;
+	}
+	
 	public static void init() {
 		students[0] = new Student("23-01", "홍길동", "남", 80);
 		students[1] = new Student("23-02", "황진이", "여", 85);
@@ -25,6 +37,10 @@ public class ObjectEx6StudentApp {
 		init();
 
 		while (run) {
+			if (!login()) {
+				System.out.println("아이디와 비밀번호를 확인하세요");
+				continue;
+			}
 			printMenu();
 			int selectNo = Integer.parseInt(scn.nextLine());
 			if (selectNo == 1) {

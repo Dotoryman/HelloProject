@@ -2,7 +2,7 @@ package com.yedam.ObjectEx1;
 
 import java.util.Scanner;
 
-public class ObjectEx2Bank {
+public class ObjectEx2Bank {//기존 뱅크파일이랑 연결해보쇼
    public static void main(String[] args) {
       Scanner scn = new Scanner(System.in);
       Bank[] accounts = new Bank[2];
@@ -42,7 +42,7 @@ public class ObjectEx2Bank {
                accounts[i] = b1;
             }
 
-         } else if (selectNo == 2) { // 조회(계좌번호 //
+         } else if (selectNo == 2) { // 조회(계좌번호)
             System.out.println("계좌번호조회 , 계좌번호를 입력하세요");
             String selectNum2 = scn.nextLine();
             boolean tun = false;

@@ -47,9 +47,9 @@ public class ObjectEx6StudentApp {
 			}
 			int maxnum = 0;
 			for (int j = 0; j < stu.length; j++) {
-				if (maxnum < stu[j].getStuScore() && stu[j].getStuScore() != null) {
+				if (maxnum < stu[j].getStuScore() ) {
 					maxnum = stu[j].getStuScore();
-				}
+				}//&& stu[j].getStuScore() != null
 			}		
 			System.out.printf("최고점수는 %d 점입니다. \n", maxnum);
 		}
